@@ -1,0 +1,30 @@
+.header {
+  background-color: #4a90e2; /* Color de fondo */
+  padding: 15px 0; /* Espaciado superior e inferior */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.nav {
+  list-style-type: none; /* Sin viñetas */
+  padding: 0; /* Sin padding */
+  margin: 0; /* Sin margen */
+  display: flex; /* Usar flexbox para el menú */
+  justify-content: center; /* Centrar los enlaces del menú */
+}
+
+.nav li {
+  margin: 0 15px; /* Espacio entre elementos del menú */
+}
+
+.nav a {
+  color: #ffffff; /* Blanco para los enlaces */
+  text-decoration: none; /* Sin subrayado */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.nav a:hover {
+  background-color: #357ABD; /* Azul más oscuro al pasar el ratón */
+}

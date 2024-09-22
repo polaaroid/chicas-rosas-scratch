@@ -1,0 +1,25 @@
+.activities-section {
+    max-width: 1200px; /* Ancho máximo */
+    margin: 20px auto; /* Centra la sección */
+    padding: 20px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .activities-content {
+    display: flex; /* Usar flexbox para alinear texto e imagen */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .activities-text {
+    flex: 1; /* Ocupa el espacio restante */
+    margin-right: 20px; /* Espacio entre texto e imagen */
+  }
+  
+  .activities-image img {
+    width: 100%; /* Ajustar al ancho del contenedor */
+    max-width: 400px; /* Limitar el tamaño máximo */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  

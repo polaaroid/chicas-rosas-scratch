@@ -1,0 +1,53 @@
+.main-image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 10%; /* Espacio desde el top para centrar verticalmente */
+    right: 5%; /* Separar el recuadro blanco del borde derecho de la imagen */
+    bottom: 10%; /* Espacio desde el bottom para centrar verticalmente */
+    width: 28%; /* Ajusta el ancho para que el recuadro no sobresalga */
+    height: 80%; /* 20% menos de la altura total */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .overlay-content {
+    text-align: center;
+  }
+  
+  .overlay-content h1 {
+    margin: 0;
+    color: #880e4f;
+  }
+  
+  .overlay-content p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .overlay-content button {
+    padding: 10px 20px;
+    background-color: #880e4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .overlay-content button:hover {
+    background-color: #aa007f;
+  }
+  

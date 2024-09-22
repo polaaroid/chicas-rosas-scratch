@@ -1,0 +1,41 @@
+.nuestros-proyectos {
+  background-color: #fff; /* Fondo blanco */
+  max-width: 1200px; /* Ancho máximo */
+  margin: 20px auto; /* Centra la sección */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.nuestros-proyectos h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.proyectos-contenido {
+  display: flex; /* Usar flexbox para alinear texto e imagen */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: space-between; /* Espacio entre elementos */
+}
+
+.proyectos-texto {
+  flex: 1; /* Ocupa el espacio restante */
+  margin-right: 20px; /* Espacio entre texto e imagen */
+}
+
+.proyectos-imagen img {
+  width: 100%; /* Ajustar al ancho del contenedor */
+  max-width: 400px; /* Limitar el tamaño máximo */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.nuestros-proyectos .proyecto {
+  padding: 15px; /* Espaciado interno */
+  margin-bottom: 20px; /* Espacio entre proyectos */
+  /* Eliminar borde y efectos de hover */
+}
+
+.nuestros-proyectos .proyecto:hover {
+  /* Eliminar efecto de hover */
+  transform: none; /* Sin efecto */
+}

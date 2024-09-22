@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff; /* Fondo blanco */
+  color: #2c3e50; /* Texto gris oscuro */
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; /* Títulos en Montserrat */
+  color: #4a90e2; /* Azul claro para títulos */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  margin: 20px auto; /* Márgenes en la parte superior e inferior */
+  padding: 40px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes ligeramente redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 1200px; /* Ancho máximo */
+  width: 100%; /* Asegurar que ocupe todo el ancho disponible */
+  background-color: #ffffff; /* Fondo blanco */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4a90e2; /* Azul claro */
+  color: #ffffff; /* Texto blanco */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: #357ABD; /* Azul más oscuro al pasar el ratón */
+  transform: translateY(-2px); /* Efecto de elevarse al pasar el ratón */
 }

@@ -1,0 +1,44 @@
+.posts-container {
+    padding: 20px;
+    max-width: 1200px; /* Asegura que el contenedor tenga el mismo ancho máximo que el resto */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centra el contenedor */
+  }
+  
+  .posts-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Asegura que los posts no se salgan del contenedor en pantallas pequeñas */
+  }
+  
+  .post {
+    background-color: #ecf0f1; /* Fondo gris claro */
+    border: 1px solid #bdc3c7; /* Borde gris claro */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    padding: 20px;
+    margin: 10px;
+    flex: 1; /* Asegura que todos los posts tengan el mismo tamaño */
+    max-width: 31%; /* Ajustar para que encajen mejor */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #bdc3c7; /* Borde inferior */
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .post-date {
+    color: #7f8c8d; /* Gris suave */
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .post-subtitle {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
